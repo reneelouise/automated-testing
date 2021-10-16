@@ -10,5 +10,4 @@ test("findShortestString returns the earlier string in cases of joint shortest s
   expect(findShortestString(["brave", "dance"])).toBe("brave");
   expect(findShortestString(["renee", "imoh", "lous", "michael"])).toBe("imoh");
   expect(findShortestString(["goa", "oia", "dubai", "italy"])).toBe("goa");
-
 });
